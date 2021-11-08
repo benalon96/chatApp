@@ -25,3 +25,8 @@ Allows conversation between two users, uploading photos, profile
  <br/>
  :white_check_mark:Change profile picture
  <br/>
+ 
+ ##---This app was developed by Ben Alon---##
+ <br/>
+ <br/>
+ # Screenshots #
