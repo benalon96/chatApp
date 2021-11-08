@@ -1,0 +1,348 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-1: #242526;
+  --color-2: white;
+  --color-3: #0084ff;
+  --color-4: grey;
+  --color-5: #eb4034;
+  --color-6: #333;
+
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 60px;
+  padding: 0px 20px;
+  background: url('../src/whatsapp-wallpaper.jpg');
+  background-color: #343b3d;
+  border-bottom: lpx solid var(--color-4);
+}
+
+nav a {
+  color: var(--color-2);
+  text-decoration: none;
+}
+
+nav div a {
+  margin-right: 40px;
+}
+section {
+max-width: 700px;
+margin: 0 auto;
+margin-top: 70px;
+box-shadow: 2px 2px 20px var(--color-2);
+border-radius: 5px;
+}
+section h3 {
+  text-align: center;
+  font-size: 20px;
+  color: var(--color-4);
+}
+/*for Register*/
+section .form {
+  margin-top: 30px;
+  padding: 0px 20px;
+}
+.input_container {
+margin-top: 20px;
+
+}
+.input_container input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  margin-top: 10px;
+  border: 1px solid var(--color-6);
+  border-radius: 5px;
+}
+.btn_container {
+  margin: 10px 0px;
+  text-align: center;
+}
+.btn {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid var(--color-4);
+  background: var(--color-1);
+  color: var(--color-2);
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+  font-size: 16px;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+.error{
+  text-align: center;
+  color:var(--color-5)
+}
+/*Profile*/
+.profile_container{
+display: flex;
+margin-bottom: 30px;
+margin-top: 60px;
+align-items: center;
+width: 500px;
+height: 500px;
+
+}
+.img_container{
+position: relative;
+margin-right: 20px;
+
+}
+.img_container img{
+width: 300px;
+height: 300px;
+margin: 20px;
+border-radius: 50%;
+border: 1px solid var(--color-4);
+transition: 0.5s ease-in-out all ;
+}
+.img_container:hover img {
+  opacity: 0.4;
+}
+.img_container:hover .overlay {
+  opacity: 1;
+}
+.overlay{
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+}
+.text_container{
+  flex-grow: 1;
+
+}
+.text_container h3{
+  text-align: left;
+
+}
+.home_container{
+  position: relative;
+  display: grid;
+  
+  grid-template-columns: 1fr 3fr;
+  overflow: hidden;
+  height: calc(100vh - 70px);
+  width: 100vw;
+
+}
+.users_container{
+margin-top: -10px;
+margin-bottom: 10px;
+background: url('../src/whatsapp-wallpaper.jpg');
+border-right: 2px solid var(--color-4);
+overflow-y: auto;
+}
+.user_wrapper{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+
+}
+.user_info{
+ display: flex;
+
+ border-bottom: 0.5px solid var(--color-4);
+ justify-content: space-between;
+ align-items: center; 
+}
+.user_detail{
+display: flex;
+align-items: center;
+
+}
+.user_detail h4 {
+  margin-left: 15px;
+  margin-bottom: 30px;
+
+}
+.avatar{
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 1px solid var(--color-4);
+}
+.user_status{
+width: 10px;
+height: 10px;
+margin-right: 20px;
+border-radius: 50%;
+}
+.online{
+  background:#34eb52 ;
+}
+.offline {
+  background: var(--color-5);
+}
+.messages_container{
+  position: relative;
+  width: 100%;
+  background: url('../src/whatsapp-wallpaper.jpg');
+  margin-bottom: 100px;
+  overflow-y: scroll;
+}
+.messages_user{
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid var(--color-4);
+}
+.no_conv{
+  font-size: 20px;
+  padding: 20px;
+  color: var(--color-4);
+  text-align: center;
+}
+.message_form{
+  margin-left: 400px;
+  bottom: 0;
+  margin-bottom: 20px;
+  position: fixed;
+  left: 20%;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.message_form input {
+margin: 0px 10px 10px;
+padding: 20px;
+/* justify-content: 'space-between'; */
+margin-bottom: 20px;
+border-radius: 5px;
+outline: none;
+border: none;
+width: 40vw;
+}
+.message_form.btn{
+  margin-top: -10px;
+
+}
+.messages{
+  height: calc(100vh-200px);
+  /* border-bottom: 1px solid var(--color-4); */
+}
+.message_wrapper{
+  margin-top: 5px;
+  padding: 0px 5px;
+  /* margin-left: 30px; */
+}
+.message_wrapper img {
+  width: 100%;
+  border-radius: 5px;
+}
+.message_wrapper p {
+  display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px;
+}
+.message_wrapper small {
+  display: inline-block;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+.message_wrapper.own {
+  text-align: right;
+  margin-right: 30px;
+}
+.me {
+  background: var(--color-3);
+  color: white;
+  text-align: right;
+}
+.friend {
+  background: var(--color-6);
+ 
+}
+.selected_user {
+  background: var(--color-4);
+}
+.truncate{
+  font-size: 14px;
+  white-space: nowrap;
+  margin-left: 10px;
+  width: 90%;
+  overflow:hidden ;
+  text-overflow:ellipsis ;
+}
+.truncate {
+  margin-right: 10px;
+}
+.unread {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background: var(--color-3);
+  color: white;
+  padding: 2px 4px;
+  border-radius: 10px;
+}
+.sm_screen {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .home_container {
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .message_form {
+    left: 3%;
+    right: 0;
+
+    bottom: 5px;
+  }
+
+  .message_wrapper p {
+    max-width: 75%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .home_container {
+    grid-template-columns: 1fr 5fr;
+  }
+
+  .user_wrapper {
+    display: none;
+  }
+
+  .sm_container {
+    padding: 10px 0px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .sm_screen {
+    display: inline-block;
+  }
+
+  .message_form input {
+    width: 50vw;
+    margin: 0px 10px;
+  }
+
+  .message_form .btn {
+    margin: 0px;
+  }
+
+  .message_wrapper p {
+    max-width: 100%;
+  }
+}
