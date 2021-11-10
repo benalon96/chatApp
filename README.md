@@ -25,9 +25,14 @@ Allows conversation between two users, uploading photos, profile
  <br/>
  :white_check_mark:Change profile picture
  <br/>
+ <br/>
+  <br/>
+   Link:https://chat-app-sable-kappa.vercel.app
+   <br/>
+  <br/>
+  ##---This app was developed by Ben Alon---##
+  <br/>
  
- <br/>
- <br/>
  # Screenshots #
  ![loginpage](https://user-images.githubusercontent.com/65303505/141095512-e6f5eeaa-8074-4ff5-8fb9-6e9c34f84f5b.png)
   <br/>
@@ -41,11 +46,6 @@ Allows conversation between two users, uploading photos, profile
  ![chatpage](https://user-images.githubusercontent.com/65303505/141095563-5ac32b20-4e2a-4e0e-96d5-298c1bbfb377.png)
  <br/>
  <br/>
- 
-  <br/>
-   <br/>
-   Link:https://chat-app-sable-kappa.vercel.app
-   
-  <br/>
-  ##---This app was developed by Ben Alon---##
+
+  
    
