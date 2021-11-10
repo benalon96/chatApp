@@ -124,6 +124,7 @@ const Home = () => {
                     text={text}
                     setText={setText}
                     setImg={setImg}
+                    Img
                     />
                     </>
                     
