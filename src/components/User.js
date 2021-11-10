@@ -39,9 +39,9 @@ return(
         )}
          <hr/>
     </div>
-    <div onClick={()=>selectUser(user)} className={`sm_container ${chat.uid===user.uid && "selected_user"}`}>
-        <img src={user.avatar||Img} alt="avatar" className="avatar sm_screen"/>
-    </div>
+//     <div onClick={()=>selectUser(user)} className={`sm_container ${chat.uid===user.uid && "selected_user"}`}>
+//         <img src={user.avatar||Img} alt="avatar" className="avatar sm_screen"/>
+//     </div>
    </>  
 
 
