@@ -31,13 +31,13 @@ Allows conversation between two users, uploading photos, profile
  # Screenshots #
   <br/>
    <br/>
- ![loginpage-pic 1](https://user-images.githubusercontent.com/65303505/141095512-e6f5eeaa-8074-4ff5-8fb9-6e9c34f84f5b.png)
+ ![loginpage](https://user-images.githubusercontent.com/65303505/141095512-e6f5eeaa-8074-4ff5-8fb9-6e9c34f84f5b.png)
   <br/>
-  ![registerpage-pic 2](https://user-images.githubusercontent.com/65303505/141095523-7575afcf-cdf8-4aa3-b329-3d24c1013ba6.png)
+  ![registerpage](https://user-images.githubusercontent.com/65303505/141095523-7575afcf-cdf8-4aa3-b329-3d24c1013ba6.png)
    <br/>
-![homepage-pic 3](https://user-images.githubusercontent.com/65303505/141095539-ee5b4d5d-5741-43cf-ab7f-daa90cc41911.png)
+![homepage](https://user-images.githubusercontent.com/65303505/141095539-ee5b4d5d-5741-43cf-ab7f-daa90cc41911.png)
  <br/>
- ![chatpage-pic 4](https://user-images.githubusercontent.com/65303505/141095563-5ac32b20-4e2a-4e0e-96d5-298c1bbfb377.png)
+ ![chatpage](https://user-images.githubusercontent.com/65303505/141095563-5ac32b20-4e2a-4e0e-96d5-298c1bbfb377.png)
  
   <br/>
    <br/>
