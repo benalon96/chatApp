@@ -79,6 +79,7 @@ const Home = () => {
             const imgRef=ref(storage,`images/${new Date()}-${img.name}`
             );
             const snap=await uploadBytes(imgRef,img)
+            setImg("")
             const dlUrl=await getDownloadURL(ref(storage,snap.ref.fullPath))
             url=dlUrl;
 
